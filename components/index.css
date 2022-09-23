@@ -19,6 +19,18 @@ body {
     margin-left: 15px;   
   }
 
+  p, ul, ol, h4 {
+    margin: 0;
+  }
+
+  .about-me-profession {
+    margin-bottom: 16px;
+  }
+
+  .my-projects-section {
+    margin-top: 8px;
+  }
+
 .mainContainer {
   display: grid;
   grid-template-columns: 240px 2fr;}
@@ -26,12 +38,6 @@ body {
 .generalContainer {
     background: #8e9297;
     width: 100%;
-}
-
-.photo {
-  /* width: 250px;
-  border-radius: 55% / 50%;
-  margin: 0 auto; */
 }
 
 
@@ -45,9 +51,6 @@ body {
   padding-bottom: 4px;
 }
 
-.main-content-section {
-  
-}
 
 .about-me-section {
   background: #4a515a;
@@ -69,8 +72,6 @@ body {
   text-transform: uppercase;
 }
 
-.my-projects-section{
-}
 
 .main-contact-title {
   width: 100%;
@@ -85,14 +86,24 @@ body {
 .my-projecs-link {
   font: 1em sans-serif;
   text-decoration: underline;
+  margin: 0;
 }
 
 .my-projecs-brecket {
   width: 528px;
+  margin: 0;
 }
 
 .my-work-experiance-company-block {
-  padding: 16px;
+  padding-left: 16px;
+}
+
+.projects-item {
+  margin-top: 8px;
+}
+
+.my-work-experiance-section {
+  margin-top: 8px;
 }
 
 .border {
