@@ -7,14 +7,94 @@ body {
     color: 1e2939;
     font-size: 14px;
     line-height: 24px;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px; 
+    margin-left: 15px;   
   }
 
 .mainContainer {
-    display: block;
-}
+  display: grid;
+  grid-template-columns: 240px 2fr;}
 
 .generalContainer {
-    display: flex;
-    background: #1e2939;
+    background: #8e9297;
     width: 100%;
+}
+
+.photo {
+  /* width: 250px;
+  border-radius: 55% / 50%;
+  margin: 0 auto; */
+}
+
+
+.sidebar-titles {
+  width: 240px;
+  background: #4a515a;
+  color: #f5f7fa;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.main-content-section {
+  
+}
+
+.about-me-section {
+  background: #4a515a;
+  color: #f5f7fa;
+  padding: 16px 96px 16px 16px;
+}
+
+.about-me-summary {
+    text-transform: uppercase;
+}
+
+.about-me-name {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-me-profession{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.my-projects-section{
+}
+
+.main-contact-title {
+  width: 100%;
+  background: #4a515a;
+  color: #f5f7fa;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.my-projecs-link {
+  font: 1em sans-serif;
+  text-decoration: underline;
+}
+
+.my-projecs-brecket {
+  width: 528px;
+}
+
+.my-work-experiance-company-block {
+  padding: 16px;
+}
+
+.border {
+  border-bottom: solid #4a515a;
 }

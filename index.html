@@ -10,53 +10,345 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Document</title>
-    <link rel="stylesheet" href="./components/index.css">
+    <link
+      rel="stylesheet"
+      href="./components/index.css"
+    />
   </head>
   <body>
     <div class="mainContainer">
       <!-- general container -->
       <div class="generalContainer">
-        <img width="300" src="./components/image/IMG_2223.jpg" alt="my foto">
+        <img
+          class="photo"
+          src="./components/image/IMG_2223.jpg"
+          alt="my foto"
+        />
 
-    <!-- contacs section -->
-    <div class="contacts-section">
-        <h3 class="sidebar-titles">Contacs</h3>
-        <div>
-            <span class="contacts-section-type">C:</span>
-            <a class="contacts-section-link" href="tel:+380500204861">+380500204861</a>
+        <!-- contacs section -->
+        <div class="contacts-section">
+          <p class="sidebar-titles">Contacs</p>
+          <div>
+            <a
+              class="contacts-section-link"
+              href="tel:+380500204861"
+              >+380500204861</a
+            >
+          </div>
+          <div>
+            <a
+              class="contacts-section-link"
+              href="mailto:ligusigor@ukr.net"
+              >ligusigor@ukr.net</a
+            >
+          </div>
+          <div>
+            <a
+              class="contacts-section-link"
+              href="https://www.linkedin.com/in/ihor-lihus"
+              >linkedin</a
+            >
+          </div>
+          <div>
+            <a
+              class="contacts-section-link"
+              href="https://github.com/ihorlihus"
+              >github</a
+            >
+          </div>
         </div>
-        <div>
-            <span class="contacts-section-type">E:</span>
-            <a class="contacts-section-link" href="mailto:ligusigor@ukr.net">ligusigor@ukr.net</a>
+
+        <!-- tech skills section -->
+        <div class="tech-skills-section">
+          <p class="sidebar-titles">
+            Tech Skills
+          </p>
+          <ul class="tech-skills-list">
+            <li>
+              <span class="skills-items"
+                >HTML5</span
+              >
+            </li>
+            <li>
+              <span class="skills-items"
+                >CSS3</span
+              >
+            </li>
+            <li>
+              <span class="skills-items"
+                >GIT</span
+              >
+            </li>
+            <li>
+              <span class="skills-items"
+                >WebPack</span
+              >
+            </li>
+            <li>
+              <span class="skills-items"
+                >JavaScript</span
+              >
+            </li>
+            <li>
+              <span class="skills-items"
+                >React.js</span
+              >
+            </li>
+            <li>
+              <span class="skills-items"
+                >Node.js</span
+              >
+            </li>
+          </ul>
+
+          <!-- soft skills section -->
+          <div class="soft-skills-section">
+            <p class="sidebar-titles">
+              Soft Skills
+            </p>
+            <ul class="soft-skills-list">
+              <li>
+                <span class="skills-items"
+                  >Scrum</span
+                >
+              </li>
+              <li>
+                <span class="skills-items"
+                  >Agile</span
+                >
+              </li>
+              <li>
+                <span class="skills-items"
+                  >GTD</span
+                >
+              </li>
+              <li>
+                <span class="skills-items"
+                  >Teamwork</span
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-
-    <!-- tech skills section -->
-    <div class="tech-skills-section">
-        <h3 class="sidebar-titles">Tech Skills</h3>
-        <ul class="tech-skills-list">
-            <li> <span class="skills-items">HTML5</span> </li>
-            <li><span class="skills-items">CSS3</span></li>
-            <li><span class="skills-items">GIT</span></li>
-            <li><span class="skills-items">WebPack</span></li>
-            <li><span class="skills-items">JavaScript</span></li>
-            <li><span class="skills-items">React.js</span></li>
-            <li><span class="skills-items">Node.js</span></li>
-        </ul>
-
-    <!-- soft skills section -->
-    <div class="soft-skills-section">
-        <h3 class="sidebar-titles">Soft Skills</h3>
-        <ul class="soft-skills-list">
-            <li><span class="skills-items">Scrum</span></li>
-            <li><span class="skills-items">Agile</span></li>
-            <li><span class="skills-items">GTD</span></li>
-            <li><span class="skills-items">Teamwork</span></li>
-        </ul>
-    </div>
       </div>
       <!-- detail container -->
-      <div></div>
+      <div class="main-content-section">
+        <!-- about me section -->
+        <div class="about-me-section">
+          <h2 class="about-me-name">
+            Ihor Lihus
+          </h1>
+          <p class="about-me-profession">
+            junior Front-End Developer
+          </p>
+          <p class="about-me-summary">Summary</p>
+          <p class="about-me-description">
+            I am a junior developer, I use React, jS, CSS
+            technologies. I quickly learn new technologies
+            and apply them in my daily work. I am looking for
+            remote or office work. I am purposeful and ready
+            to work productively and develop professionally.
+          </p>
+        </div>
+
+        <!-- my projects section -->
+        <div class="my-projects-section">
+          <p class="main-contact-title">
+            Projects
+          </p>
+          <ol class="my-projects-list">
+            <li class="my-projects-item">
+              <span class="my-projects-text">
+                <a
+                  href="https://ihorlihus.github.io/goit-react-hw-05-movies/"
+                  class="my-projecs-link"
+                  >Film finder</a>
+                
+                <p class="my-projecs-brecket">
+                  The project shows trending films for today with
+                  the ability to search by title. Can shows reviews, casts.
+                  Implemented using React routing, hooks and code splitting
+                  (lazy loading).
+                </p>
+                </span>                
+              </li>
+            <li class="my-projects-item">
+              <span class="my-projects-text">
+                <a
+                  href="https://ihorlihus.github.io/teamProjectPhenixFilmoteka/"
+                  class="my-projecs-link"
+                  >Filmoteka</a>
+                
+                <p class="my-projecs-brecket">
+                  Team project about searching movies and adding favorite
+                  movies to a client personal library. Using pure JS,
+                  npm-packages and SCSS. User registration implemented
+                  with Firebase. My role in the project is teamlead.
+                </p>
+                </span>
+            </li>
+            <li class="my-projects-item">
+              <span class="my-projects-text">
+                <a
+                  href="https://ihorlihus.github.io/projectPhoenixIceCream/"
+                  class="my-projecs-link"
+                  >IceCream</a>
+                <p class="my-projecs-brecket">
+                  Team project about ice cream company site filled with tasty
+                  visual effects using JavaScript and SCSS. My role in the
+                  project is teamlead.
+                </p>
+                </span>
+            </li>
+            <li class="my-projects-item">
+              <span class="my-projects-text">
+                <a
+                  href="https://ihorlihus.github.io/projectPhoenixIceCream/"
+                  class="my-projecs-link"
+                  >Web studio</a>
+                <p class="my-projecs-brecket">
+                  Project about web studio site filled with sleek and modern
+                  design using JavaScript and SCSS.
+                </p>
+                </span>
+            </li>
+          </ol>
+        </div>
+
+        <!-- my experience section -->
+        <div class="my-projects-section">
+          <p class="main-contact-title">
+            Work experience
+          </p>
+
+          <!-- company 3 -->
+          <div
+            class="my-work-experiance-company-block"
+          >
+            <h4 class="projects-item">
+              Chief security officer Kharkiv
+              direction
+              <span
+                class="my-work-experiance-section"
+                >Raiffeisen Bank Aval</span
+              >
+            </h4>
+            <p class="my-work-experiance-period">
+              August 2020 - July 2021
+            </p>
+            <ul class="my-work-experiance-duties">
+              <li>
+                Ability to prioritize.
+              </li>
+              <li>
+                Ability to delegate authority.
+              </li>
+              <li>
+                Decisiveness and perseverance.
+              </li>
+              <li>
+                Communication skills, tact and respect for subordinates.
+              </li>
+            </ul>
+          </div>
+
+          <!-- company 2 -->
+          <div
+            class="my-work-experiance-company-block"
+          >
+            <h4 class="projects-item">
+              Police officer management of the
+              protection of the economy
+              <span
+                class="my-work-experiance-section"
+                >National Police of Ukraine</span
+              >
+            </h4>
+            <p class="my-work-experiance-period">
+              October 2018 - July 2020
+            </p>
+            <ul class="my-work-experiance-duties">
+              <li>
+                Honesty, fidelity to commitments.
+              </li>
+              <li>
+                Ability to independently
+                and timely make responsible decisions
+                and persistently implement them.
+              </li>
+              <li>
+                Ability to quickly find a way out of
+                a difficult situation.
+              </li>
+            </ul>
+          </div>
+
+          <!-- company 1 -->
+          <div class="my-work-experiance-company-block">
+            <h4 class="projects-item">
+              Police officer
+              <span
+                class="my-work-experiance-section"
+                >National Police of Ukraine</span
+              >
+            </h4>
+            <p class="my-work-experiance-period">
+              August 2013 - October 2018
+            </p>
+            <ul class="my-work-experiance-duties">
+              <li>
+                Attention to detail.
+              </li>
+              <li>
+                Making informed decisions.
+              </li>
+              <li>
+                Compliance with established rules.
+              </li>
+            </ul>
+          </div>
+
+          <!-- my education section -->
+          <div>
+            <p class="main-contact-title">
+              Education
+            </p>
+            <div class="my-work-experiance-company-block">
+            <h4
+              class="my-work-experiance-section"
+            >
+              National University of internal
+              affairs named from E. Didorenko
+            </h4>
+            <h4>
+              Investigation of economic crimes
+            </h4>
+            <p class="my-work-experiance-period border">
+              September 2009 - July 2013
+              <span
+                class="my-work-experiance-divider"
+                >|</span
+              >
+              Ukraine
+            </p>
+            <h4 class="my-work-experiance-section">
+              IT School GoIT
+            </h4>
+            <h4>
+              Full stack developer
+            </h4>
+            <p class="my-work-experiance-period">
+              October 2021 - present
+              <span
+                class="my-work-experiance-divider"
+                >|</span
+              >
+              Ukraine
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
