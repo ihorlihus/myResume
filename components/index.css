@@ -16,7 +16,6 @@ body {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     line-height: 24px; 
-    margin-left: 15px;   
   }
 
   p, ul, ol, h4 {
@@ -33,11 +32,18 @@ body {
 
 .mainContainer {
   display: grid;
-  grid-template-columns: 240px 2fr;}
+  grid-template-columns: 244px 2fr;
+}
 
 .generalContainer {
     background: #8e9297;
-    width: 100%;
+    width: 240px;
+    border: 2px solid #4a515a;
+}
+
+.sidebar-list {
+  margin-top: 16px;
+  margin-bottom: 32px;
 }
 
 
@@ -51,6 +57,11 @@ body {
   padding-bottom: 4px;
 }
 
+.detail-container {
+  border-right: 2px solid #4a515a;
+  border-bottom: 2px solid #4a515a;
+}
+
 
 .about-me-section {
   background: #4a515a;
@@ -62,12 +73,7 @@ body {
     text-transform: uppercase;
 }
 
-.about-me-name {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.about-me-profession{
+.about-me-name-title {
   text-align: center;
   text-transform: uppercase;
 }
@@ -94,7 +100,11 @@ body {
   margin: 0;
 }
 
-.my-work-experiance-company-block {
+.line {
+  margin-left: 4px;
+}
+
+.company-block {
   padding-left: 16px;
 }
 
@@ -104,8 +114,4 @@ body {
 
 .my-work-experiance-section {
   margin-top: 8px;
-}
-
-.border {
-  border-bottom: solid #4a515a;
 }
